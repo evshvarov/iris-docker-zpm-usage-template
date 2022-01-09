@@ -3,7 +3,9 @@
     zn "%SYS"
     Do ##class(Security.Users).UnExpireUserPasswords("*")
 
+    set package="csvgen-ui"
+
     zn "USER"
     ; use your module here instead of csvgen
-    zpm "install csvgen -v":1:1
+    zpm "install "_package_" -v":1:1
     halt
