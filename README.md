@@ -46,7 +46,7 @@ USER>
 
 ## How to Use it
 This repository is a way to get a new container image with IRIS and one-two-many arbitrary zpm packages installed.
-Change csvgen package in [this line](https://github.com/evshvarov/iris-docker-zpm-usage-template/blob/b56c7ffd40a7593879fb5cbe5503b1f222d6e42b/iris.script#L7) to a package you need and build the image again.
+Change csvgen package in [this line](https://github.com/intersystems-community/iris-docker-zpm-usage-template/blob/01a8734b89d56643e4f53372df43e620d5b5c2b3/iris.script#L10) to a package you need and build the image again.
 
 
 ## How to start coding
